@@ -27,19 +27,19 @@ variable "node_type" {
 }
 
 variable "node_desired_size" {
-  default = 2
+  default = 3
   type    = number
   description = "eks-node desired size"
 }
 
 variable "node_max_size" {
-  default = 2 
+  default = 3 
   type    = number
   description = "eks- node maxize"
 }
 
 variable "node_min_size" {
-  default = 2 
+  default = 3 
   type    = number
   description = "eks-node desired size"
 }
