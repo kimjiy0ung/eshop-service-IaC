@@ -21,7 +21,7 @@ variable "cluster_node_name" {
 }
 
 variable "node_type" {
-  default     = ["t3.medium"]
+  default     = ["t3.large"]
   type        = list(any)
   description = "eks cluster node type"
 }
